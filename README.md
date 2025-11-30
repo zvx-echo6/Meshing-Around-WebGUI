@@ -69,6 +69,19 @@ docker-compose up -d meshing-webgui
 
 Access at: `http://your-server:8085`
 
+## Configuration Notes
+
+The WebGUI reads your existing `config.ini` and displays current settings. All toggles, inputs, and dropdowns will reflect your current configuration.
+
+**Important - Scheduler Migration:**
+
+The WebGUI uses its own scheduler stored in `schedules.json`, which is separate from meshing-around's built-in `[scheduler]` section in config.ini.
+
+If you have existing scheduled broadcasts configured in config.ini, you'll need to recreate them in the WebGUI's Scheduler section. The WebGUI scheduler provides additional features like:
+- Visual schedule management
+- Multiple message types (broadcast, DM, channel-specific)
+- Enable/disable individual schedules without deleting
+
 ## Files
 
 ```
