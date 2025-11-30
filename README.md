@@ -20,6 +20,36 @@ For the full integrated version with additional features, see: [Meshing-Around-W
 | Leaderboard | ⚠️ | Shows hex IDs (names require integrated version) |
 | Packet Monitor | ❌ | Requires integrated version |
 
+## Screenshots
+
+*Note: Screenshots are from the integrated version. In this addon, the leaderboard displays hex node IDs instead of names.*
+
+### Dashboard
+![Dashboard](docs/screenshots/Dashbaord.png)
+
+### Radio Connections
+![Radio Connections](docs/screenshots/Radio%20Connections.png)
+
+### Mesh Nodes
+![Mesh Nodes](docs/screenshots/Mesh%20Nodes.png)
+
+### Scheduler
+![Scheduler](docs/screenshots/Scheduler.png)
+![Custom Schedules](docs/screenshots/Custom%20Schedules.png)
+
+### BBS Network
+![BBS Network](docs/screenshots/BBS%20Network.png)
+
+### System Logs
+![System Logs](docs/screenshots/System%20Logs.png)
+
+### Configuration
+![General Settings](docs/screenshots/General%20Settings.png)
+![BBS Config](docs/screenshots/BBS%20Config.png)
+
+### Activity Log
+![Activity Log](docs/screenshots/Activity%20Log.png)
+
 ## Installation
 
 ### 1. Copy files to your meshing-around installation
